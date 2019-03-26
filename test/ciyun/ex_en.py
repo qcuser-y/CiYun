@@ -1,7 +1,7 @@
 # _*_ codding:utf-8 _*_
 """
     Function:词云
-    Author: yqc
+    Author: qcuser
 """
 
 from wordcloud import WordCloud
