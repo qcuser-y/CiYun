@@ -23,7 +23,7 @@ def chinese_jieba(text):
     return text_jieba
 
 
-with open(os.path.join(cur_path, 'zbkq.txt')) as fp:
+with open(os.path.join(cur_path, 'zbkq.txt'), encoding='UTF-8') as fp:
     text = fp.read()
     text = chinese_jieba(text)
     mask_pic = numpy.array(Image.open(os.path.join(cur_path, 'timg.jpeg')))
